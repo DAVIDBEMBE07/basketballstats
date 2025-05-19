@@ -3,19 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basketball Stats</title>
-    <meta name="description" content="Application de statistiques de basketball" />
-    <meta name="author" content="Basketball Stats" />
+    <title>Basketball Plateforme - Application de Statistiques Basketball</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Basketball Plateforme : suivez et analysez les performances de votre équipe de basketball en temps réel. Statistiques, analyses et gestion d'équipe complète." />
+    <meta name="author" content="Basketball Plateforme" />
+    <meta name="keywords" content="basketball stats, statistiques basketball, analyse basketball, performance basket, plateforme basketball" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://basketball-plateforme.vercel.app" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:title" content="Basketball Stats Tracker" />
-    <meta property="og:description" content="Application de statistiques de basketball" />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://basketball-plateforme.vercel.app" />
+    <meta property="og:title" content="Basketball Plateforme - Statistiques et Analyse de Basketball" />
+    <meta property="og:description" content="Gérez votre équipe de basketball avec notre plateforme de statistiques professionnelle. Analyses en temps réel et suivi des performances." />
     <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Basketball Plateforme" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@basketball_stats" />
+    <meta name="twitter:creator" content="@basketball_stats" />
+    <meta name="twitter:title" content="Basketball Plateforme - Stats et Analyse" />
+    <meta name="twitter:description" content="Suivez et analysez les performances de votre équipe de basketball en temps réel." />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
     <!-- Google Fonts -->
@@ -24,13 +35,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="/src/index.css">
+
+    <!-- Schema.org pour Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Basketball Plateforme",
+      "applicationCategory": "SportsApplication",
+      "operatingSystem": "Web",
+      "description": "Application de statistiques de basketball pour suivre et analyser les performances des joueurs et des équipes.",
+      "url": "https://basketball-plateforme.vercel.app",
+      "author": {
+        "@type": "Organization",
+        "name": "Basketball Plateforme"
+      }
+    }
+    </script>
   </head>
 
   <body>
+    <noscript>
+      <strong>Basketball Plateforme nécessite JavaScript pour fonctionner. Veuillez l'activer pour continuer.</strong>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

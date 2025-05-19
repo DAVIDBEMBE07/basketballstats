@@ -1,0 +1,29 @@
+{
+  "name": "Basketball Plateforme",
+  "short_name": "BasketStats",
+  "description": "Application de statistiques de basketball pour suivre et analyser les performances",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#15803d",
+  "theme_color": "#15803d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["sports", "statistics", "basketball"],
+  "lang": "fr-FR"
+}
